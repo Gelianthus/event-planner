@@ -1,0 +1,14 @@
+text-neutral-* is reserved for font colors
+
+use UserContext.user to dynamically render pages' content
+
+check UserContext.user to redirect unsigned in users back to sign in page
+
+common page layout: parent_div > header, main, footer
+parent_div: flex flex-col min-h-screen, main: flex-grow, header: sticky top-0
+
+
+to-dos:
+get proper fonts for headings
+fonts for buttons
+set a color theme for light and dark mode
