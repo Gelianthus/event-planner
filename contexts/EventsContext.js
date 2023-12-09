@@ -1,7 +1,6 @@
 "use client";
 
-import { createContext, useState, useEffect, useContext } from "react";
-import { UserContext } from "./UserContext";
+import { createContext, useState } from "react";
 
 export const EventsContext = createContext(null);
 

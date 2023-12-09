@@ -33,7 +33,6 @@ export default function Home() {
 		if (session) {
 			getUser();
 		}
-		console.log(status);
 	}, [status]);
 
 	return (
@@ -70,7 +69,7 @@ export default function Home() {
 					</div>
 				</section>
 				<button
-					className="font-semibold flex flex-row gap-2 items-center p-4 rounded  mx-auto bg-sky-500 text-neutral-50 hover:bg-sky-600 active:bg-sky-700 "
+					className="font-semibold flex flex-row gap-2 items-center p-4 rounded mb-8 mx-auto bg-sky-500 text-neutral-50 hover:bg-sky-600 active:bg-sky-700 "
 					onClick={() => signIn("google")}
 				>
 					<span>Sign in</span>
