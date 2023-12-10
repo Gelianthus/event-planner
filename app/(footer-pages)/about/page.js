@@ -64,19 +64,23 @@ function AboutPage() {
 				}  p-4 rounded`}
 			>
 				<p className="my-4">
-					A web application exclusive for Taydemon Swift{" "}
-					<span className="text-xs">{"(and hitler)"}</span> Enjoyers. It's
-					mostly a for fun project that lets you send an email to other users to
-					notify them about any upcoming events.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue
+					tellus, porta eu eleifend quis, consectetur sit amet felis. Curabitur
+					et metus turpis. Etiam sed luctus dolor. Aenean malesuada egestas eros
+					nec sollicitudin. Pellentesque eros enim, viverra id dapibus sed,
+					gravida sit amet dolor. Phasellus vitae nulla lorem. Cras quis quam
+					bibendum, ultrices augue ac, maximus libero. Aliquam et libero
+					sagittis tortor dapibus tincidunt vitae ut ipsum. Quisque eget laoreet
+					erat. Proin at diam quis massa cursus efficitur vel id ligula. Fusce
+					eu facilisis nibh, ut luctus eros. Nam eu ante eros. Curabitur ut
+					lorem vel elit consectetur dictum.
 				</p>
 				<p className="my-4">
-					This app was created to prevent my friends from making life progress
-					by inviting them into random events, mostly drinking. By doing so, I
-					can hinder their career plans while I silently build myself up.
-					Honestly, I'm kinda losing hope in myself and starting to feel lazier
-					day by day, so even If I end up as a failure{" "}
-					{"(I kind of already am)"}, I can atleast drag them down with me.{" "}
-					{"<3"}
+					Aliquam libero neque, vulputate non lacus nec, porttitor pellentesque
+					sem. Pellentesque tincidunt faucibus vestibulum. Vivamus egestas nisl
+					est, at scelerisque mauris fringilla et. Nullam dictum dui nec dui
+					venenatis sodales. In quis elementum eros, in volutpat ligula. Nunc
+					quam orci, consectetur quis volutpat quis, sagittis sit amet dolor.
 				</p>
 			</div>
 		</main>

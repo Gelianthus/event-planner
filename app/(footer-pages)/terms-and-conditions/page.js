@@ -69,8 +69,16 @@ function TermsAndConditionsPage() {
 				</p>
 
 				<p className=" my-4">
-					I will not take responsibility if your email account gets hacked. Keep
-					that in mind before signing up.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue
+					tellus, porta eu eleifend quis, consectetur sit amet felis. Curabitur
+					et metus turpis. Etiam sed luctus dolor. Aenean malesuada egestas eros
+					nec sollicitudin. Pellentesque eros enim, viverra id dapibus sed,
+					gravida sit amet dolor. Phasellus vitae nulla lorem. Cras quis quam
+					bibendum, ultrices augue ac, maximus libero. Aliquam et libero
+					sagittis tortor dapibus tincidunt vitae ut ipsum. Quisque eget laoreet
+					erat. Proin at diam quis massa cursus efficitur vel id ligula. Fusce
+					eu facilisis nibh, ut luctus eros. Nam eu ante eros. Curabitur ut
+					lorem vel elit consectetur dictum.
 				</p>
 			</div>
 		</main>

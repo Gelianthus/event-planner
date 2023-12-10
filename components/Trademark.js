@@ -9,7 +9,8 @@ function Trademark() {
 			<p className="text-center">
 				Made by{" "}
 				<Link
-					href={"/"}
+					target="_blank"
+					href={"https://personal-website-gelianthus.vercel.app/"}
 					className={`underline`}
 				>
 					{"@Gelianthus"}

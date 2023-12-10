@@ -7,7 +7,7 @@ import { Russo_One } from "next/font/google";
 
 const russo_one = Russo_One({ subsets: ["latin"], weight: ["400"] });
 
-function AboutPage() {
+function PrivacyPage() {
 	const { darkMode, setDarkMode } = useContext(DarkModeContext);
 
 	return (
@@ -64,22 +64,30 @@ function AboutPage() {
 				}  p-4 rounded`}
 			>
 				<p className="my-4">
-					I don't respect your privacy, I'll sell your data to crypto bros and
-					china government. I'll also randomly sign your email up in sketchy
-					gambling sites.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam augue
+					tellus, porta eu eleifend quis, consectetur sit amet felis. Curabitur
+					et metus turpis. Etiam sed luctus dolor. Aenean malesuada egestas eros
+					nec sollicitudin. Pellentesque eros enim, viverra id dapibus sed,
+					gravida sit amet dolor.
 				</p>
 				<p className="my-4">
-					Of course you can just delete your account, I'll write a code that
-					would delete your email from the database but you'll also be signed up
-					to as many newsletter as possible as a farewell gift.
+					Phasellus vitae nulla lorem. Cras quis quam bibendum, ultrices augue
+					ac, maximus libero. Aliquam et libero sagittis tortor dapibus
+					tincidunt vitae ut ipsum. Quisque eget laoreet erat. Proin at diam
+					quis massa cursus efficitur vel id ligula. Fusce eu facilisis nibh, ut
+					luctus eros. Nam eu ante eros. Curabitur ut lorem vel elit consectetur
+					dictum.
 				</p>
 				<p className="my-4">
-					And if you don't learn your lesson and somehow decide to create an
-					account again, I'll sign your email up to porn sites.
+					Aliquam libero neque, vulputate non lacus nec, porttitor pellentesque
+					sem. Pellentesque tincidunt faucibus vestibulum. Vivamus egestas nisl
+					est, at scelerisque mauris fringilla et. Nullam dictum dui nec dui
+					venenatis sodales. In quis elementum eros, in volutpat ligula. Nunc
+					quam orci, consectetur quis volutpat quis, sagittis sit amet dolor.
 				</p>
 			</div>
 		</main>
 	);
 }
 
-export default AboutPage;
+export default PrivacyPage;
