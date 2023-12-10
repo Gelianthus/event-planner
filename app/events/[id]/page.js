@@ -98,20 +98,23 @@ function EventPage() {
 							<section
 								className={`${
 									darkMode
-										? "bg-gray-800 border-gray-950 text-neutral-50"
+										? "bg-gray-900 border-gray-950 text-neutral-50"
 										: "bg-gray-50 border-gray-600 text-neutral-800"
-								} w-full sm:w-3/4 lg:w-4/5 mx-auto rounded p-4 border-2 `}
+								} w-full sm:w-3/4 lg:w-4/5 mx-auto rounded border-2 `}
 							>
-								<h1 className="font-bold text-xl">{event?.eventName}</h1>
-								<p className="my-4">{event?.eventDesc}</p>
-								<hr
-									className={`${
-										darkMode ? "border-gray-950" : "border-gray-600"
-									} border-t-2 my-4`}
-								/>
-								<div className="my-4">
-									<h2 className="font-bold mb-4">Interested:</h2>
-									<ul className="flex flex-row gap-4">
+								<div
+									className={`
+									 
+									p-4`}
+								>
+									<h1 className="font-bold text-xl">{event?.eventName}</h1>
+									<p className="my-4">{event?.eventDesc}</p>
+								</div>
+								<div className="my-4 p-4">
+									<h2 className="font-bold mb-4 text-emerald-500">
+										Interested:
+									</h2>
+									<ul className="flex flex-row flex-wrap gap-4">
 										{event?.interested.length < 1 && (
 											<li title="you have no friends">{"<empty list>"}</li>
 										)}
@@ -141,12 +144,8 @@ function EventPage() {
 										})}
 									</ul>
 								</div>
-								<hr
-									className={`${
-										darkMode ? "border-gray-950" : "border-gray-600"
-									} border-t-2 my-4`}
-								/>
-								<div>
+
+								<div className="p-4">
 									{event?.interested.some(
 										(element) => element._id === user?._id
 									) ? (
@@ -154,7 +153,7 @@ function EventPage() {
 											onClick={actionHandle}
 											className={`block mx-auto font-semibold text-lg py-4 px-8  rounded border-2 ${
 												darkMode
-													? "border-gray-950 bg-gray-900"
+													? "border-gray-950 bg-gray-950"
 													: "border-gray-700"
 											}  hover:bg-rose-400 hover:text-neutral-50 hover:border-rose-500 active:bg-rose-500 active:text-neutral-50`}
 										>
@@ -165,7 +164,7 @@ function EventPage() {
 											onClick={actionHandle}
 											className={`block mx-auto font-semibold text-lg py-4 px-8  rounded border-2 ${
 												darkMode
-													? "border-gray-950 bg-gray-900"
+													? "border-gray-950 bg-gray-950"
 													: "border-gray-700"
 											} hover:bg-emerald-400 hover:text-neutral-50 hover:border-emerald-500 active:bg-emerald-500 active:text-neutral-50`}
 										>
@@ -173,12 +172,8 @@ function EventPage() {
 										</button>
 									)}
 								</div>
-								<hr
-									className={`${
-										darkMode ? "border-gray-950" : "border-gray-600"
-									} border-t-2 my-4`}
-								/>
-								<div className="flex flex-row gap-4 justify-between items-center font-bold text-xs">
+
+								<div className="flex flex-row gap-4 justify-between items-center p-4 font-bold text-xs text-emerald-500">
 									<p>Date: {fullDate.toDateString()}</p>
 									<p>Planned by: {event?.createdBy.username}</p>
 								</div>
